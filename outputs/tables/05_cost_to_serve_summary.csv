@@ -1,0 +1,2 @@
+stores,skus,transaction_lines,revenue,cogs,gross_profit,inbound_freight,picking_cost,basket_handling,shrink_cost,total_cost_to_serve,contribution_profit,contribution_margin_pct,reconciliation_gap
+5,800,44595,133573.76,93541.83,40031.93,3450.0,5332.8,3650.0,1630.3,14063.1,25968.83,19.44,0.0

@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+*.duckdb
+*.duckdb.wal
+*.db
+~$*.xlsx
+
+data/raw/*
+!data/raw/.gitkeep

@@ -1,0 +1,2 @@
+stores,skus,transaction_lines,observed_revenue,modeled_cogs,modeled_gross_profit,modeled_gross_margin_pct,reconciliation_gap,unresolved_free_unit_lines
+5,800,44595,133573.76,93541.83,40031.93,29.97,-0.0,0

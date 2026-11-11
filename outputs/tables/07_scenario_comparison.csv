@@ -1,0 +1,6 @@
+scenario_id,scenario_name,revenue,gross_profit,baseline_cost_to_serve,total_savings,scenario_cost_to_serve,baseline_contribution_profit,scenario_contribution_profit,scenario_margin_pct,margin_improvement_pp
+BASE,Baseline,133573.76,40031.93,14063.1,0.0,14063.1,25968.83,25968.83,19.44,0.0
+S01,Freight Consolidation,133573.76,40031.93,14063.1,345.0,13718.1,25968.83,26313.83,19.7,0.26
+S02,Shrink Reduction,133573.76,40031.93,14063.1,244.55,13818.56,25968.83,26213.37,19.62,0.18
+S03,Fulfillment Efficiency,133573.76,40031.93,14063.1,715.78,13347.32,25968.83,26684.61,19.98,0.54
+S04,Combined Strategy,133573.76,40031.93,14063.1,1305.33,12757.78,25968.83,27274.15,20.42,0.98

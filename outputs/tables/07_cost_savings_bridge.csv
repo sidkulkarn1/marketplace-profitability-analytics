@@ -1,0 +1,21 @@
+scenario_id,cost_component,modeled_savings
+BASE,Basket Handling,0.0
+BASE,Inbound Freight,0.0
+BASE,Picking,0.0
+BASE,Shrink,0.0
+S01,Basket Handling,0.0
+S01,Inbound Freight,345.0
+S01,Picking,0.0
+S01,Shrink,0.0
+S02,Basket Handling,0.0
+S02,Inbound Freight,0.0
+S02,Picking,0.0
+S02,Shrink,244.55
+S03,Basket Handling,182.5
+S03,Inbound Freight,0.0
+S03,Picking,533.28
+S03,Shrink,0.0
+S04,Basket Handling,182.5
+S04,Inbound Freight,345.0
+S04,Picking,533.28
+S04,Shrink,244.55

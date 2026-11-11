@@ -1,0 +1,4 @@
+scope,transaction_lines,baskets,active_skus,zero_sales_lines,zero_quantity_lines,negative_quantity_lines,negative_sales_lines,missing_key_lines,total_sales
+five_stores_all_skus,131075,16579,22036,1055,834,0,0,0,372274.92
+five_stores_top_800,45525,12916,800,187,157,0,0,0,155857.66
+full_source,2595732,276484,92339,18850,14466,0,0,0,8057463.08

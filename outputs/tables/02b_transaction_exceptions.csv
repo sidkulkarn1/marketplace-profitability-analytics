@@ -1,0 +1,5 @@
+line_classification,transaction_lines,affected_skus,observed_sales
+normal_positive_line,45336,800,155857.58
+both_zero,155,115,0.0
+zero_sales_positive_quantity,32,19,0.0
+positive_sales_zero_quantity,2,2,0.08
