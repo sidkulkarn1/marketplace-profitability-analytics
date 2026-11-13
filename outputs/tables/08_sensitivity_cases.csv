@@ -1,0 +1,4 @@
+case_name,realization_factor,revenue,gross_savings,implementation_cost,net_savings,contribution_profit,contribution_margin_pct
+Conservative,0.50,133573.76,652.66,0.00,652.66,26621.49,19.93
+Expected,1.00,133573.76,1305.33,0.00,1305.33,27274.15,20.42
+Optimistic,1.20,133573.76,1566.39,0.00,1566.39,27535.22,20.61
