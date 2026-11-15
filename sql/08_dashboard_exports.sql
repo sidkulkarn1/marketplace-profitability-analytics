@@ -1,9 +1,3 @@
--- Dashboard exports from the existing SQL01-07 database. Run from project root.
--- SELECT/COPY only: no persistent tables or views are changed.
--- Monetary values: USD, rounded only after aggregation; *_pct: 0-100.
--- Sensitivity inputs are illustrative, with zero implementation cost.
--- SKU leakage is a filtered top-40 diagnostic, not an additive portfolio total.
-
 -- portfolio_kpis
 COPY (
 SELECT
@@ -236,3 +230,4 @@ SELECT case_name, realization_factor,
  ROUND(100.0 * (baseline_profit + gross_savings * realization_factor) / NULLIF(revenue,0),2) AS contribution_margin_pct
 FROM combined CROSS JOIN cases ORDER BY realization_factor
 ) TO 'outputs/tables/08_sensitivity_cases.csv' (HEADER, DELIMITER ',');
+
