@@ -1,6 +1,8 @@
-# Marketplace Economics & Profitability Analytics
+# Marketplace Profitability Analytics
 
-**A retail profitability case study using DuckDB SQL, Python and Excel.**
+**SQL / DuckDB · Excel · Unit Economics · Cost-to-Serve · Scenario Analysis**
+
+An independent retail profitability case study; Python supports SQL execution and reconciliation.
 
 ## Project summary
 
@@ -88,12 +90,12 @@ The Excel models use the financial outputs from the earlier SQL stages. SQL08 pr
 
 ### Financial model
 
-```text
-Observed revenue − Modeled COGS = Modeled gross profit
-Modeled gross profit − Cost-to-serve = Modeled contribution profit
-Cost-to-serve = Freight + Picking + Allocated basket handling + Shrink
-Net scenario savings = Gross scenario savings − Implementation costs
-```
+| Calculation | Definition |
+|---|---|
+| Modeled gross profit | Observed revenue − modeled COGS |
+| Modeled contribution profit | Gross profit − cost-to-serve |
+| Cost-to-serve | Freight + picking + allocated basket handling + shrink |
+| Net scenario savings | Gross scenario savings − implementation costs |
 
 COGS uses SKU reference unit prices and department cost ratios. Freight is charged on nonnegative recorded units; picking applies to positive-quantity or positive-sales lines. Shared handling is allocated using eligible revenue in the complete observed store/basket, including products outside the selected portfolio. Shrink is a department-specific share of modeled COGS.
 

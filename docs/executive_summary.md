@@ -1,5 +1,7 @@
 # Executive summary
 
+**Project:** [Marketplace Profitability Analytics](../README.md)
+
 ## Decision and evidence
 Prioritize a small fulfillment-efficiency pilot after validating costs with operating data. In this illustrative retail portfolio, a 10% picking-cost reduction plus a 5% handling-cost reduction yields $715.78 gross savings, the largest standalone scenario. Picking is the largest modeled cost-to-serve component ($5,332.80).
 

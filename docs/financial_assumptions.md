@@ -1,6 +1,6 @@
 # Financial Assumptions & Modeling Methodology
 
-**Project:** Marketplace Economics & Profitability Analytics
+**Project:** Marketplace Profitability Analytics
 **Dataset:** Dunnhumby — The Complete Journey
 **Primary Tools:** SQL (DuckDB), Microsoft Excel
 **Model Type:** Retail unit economics, cost-to-serve, and contribution profitability

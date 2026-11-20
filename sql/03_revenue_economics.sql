@@ -1,5 +1,5 @@
 
--- PROJECT 4: MARKETPLACE ECONOMICS & PROFITABILITY
+-- PROJECT 4: Marketplace Profitability Analytics
 -- SQL03: REVENUE ECONOMICS
 -- Final population: 5 stores, 800 eligible retail SKUs
 

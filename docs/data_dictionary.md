@@ -1,5 +1,7 @@
 # Data dictionary
 
+**Project:** [Marketplace Profitability Analytics](../README.md)
+
 ## Source and grain
 Dunnhumby Complete Journey CSVs supplied locally through Kaggle. The exact Kaggle download URL/version was not recorded in the repository; confirm it before public publication. Only `transaction_data.csv` and `product.csv` are loaded by SQL01; other raw files are preserved. A transaction row is a source line, not a guaranteed unique basket/SKU pair. Monetary fields are interpreted as USD; dates remain relative dataset days.
 

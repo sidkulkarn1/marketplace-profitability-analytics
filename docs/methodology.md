@@ -1,5 +1,7 @@
 # Methodology and reproduction
 
+**Project:** [Marketplace Profitability Analytics](../README.md)
+
 ## Scope and selection
 Dunnhumby Complete Journey transaction data, obtained through Kaggle, represents participating households, not full-store financials. SQL01 profiles the source. SQL01b screens stores for at least 10,000 lines, 500 active days, first day <=30 and last day >=680, then assigns five revenue tiers. SQL01c selects one store per tier by active days, baskets, then store ID. SQL02 initially tests 800 SKUs; SQL02b reviews exceptions. SQL02c is the authoritative final scope: exclude null departments, KIOSK-GAS and MISC SALES TRAN, rank eligible SKU revenue across the five stores, then select the top 800 (product ID breaks ties).
 
