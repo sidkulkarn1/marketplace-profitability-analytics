@@ -4,6 +4,19 @@
 
 An independent retail profitability case study; Python supports SQL execution and reconciliation.
 
+## Key Results
+
+| Metric | Observed or modeled result |
+|---|---:|
+| Selected retail portfolio | **5 stores / 800 SKUs / 44,595 transaction lines** |
+| Observed transaction revenue | **$133,573.76** |
+| Modeled baseline contribution profit | **$25,968.83 / 19.44% margin** |
+| Largest standalone modeled savings opportunity | **$715.78 — fulfillment efficiency** |
+| Combined strategy gross modeled savings | **$1,305.33** |
+| Combined strategy modeled contribution margin | **19.44% → 20.42% / +0.98 percentage points** |
+
+Figures reconcile to the [portfolio KPI export](outputs/tables/08_portfolio_kpis.csv) and [scenario comparison](outputs/tables/08_scenario_comparison.csv). Revenue is observed; costs, contribution profitability, and savings are modeled. Scenario savings exclude implementation costs and are not realized company results.
+
 ## Project summary
 
 This project investigates how product acquisition costs and operating costs affect retail contribution profitability—and which cost-reduction opportunities deserve further testing. It connects observed Dunnhumby Complete Journey transactions to an illustrative financial model, three Excel dashboards and reproducible dashboard exports.
