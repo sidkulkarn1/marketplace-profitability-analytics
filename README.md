@@ -29,6 +29,24 @@ The selected portfolio contains **five stores, 800 SKUs and 44,595 transaction l
 
 ## Dashboards
 
+<!-- BEGIN INTERACTIVE WEBSITE DASHBOARDS -->
+
+### Interactive website dashboards
+
+[Explore the interactive case study](https://www.siddkulkarni.com/projects/marketplace-profitability-analytics)
+
+The website presents native interactive charts using prepared extracts from this project's analytical outputs. The original workbooks, saved previews, and analysis files remain available in this repository. Website filters and assumption changes do not write back to those files.
+
+| Dashboard | Website features |
+|---|---|
+| Unit Economics | Linked store/department selection updates financial scope, with Top-5/all-department comparisons and selected-record detail. |
+| Cost-to-Serve & Contribution | Selected-scope cost components and store contribution, plus an added searchable 40-SKU margin diagnostic with its own department/flag filters and all-store scope. |
+| Profitability Scenarios | Editable cost-reduction and implementation-cost assumptions, gross/net savings, an added scenario-margin comparison, and 50%/100%/120% realization cases. |
+
+Financial totals follow the selected store/department scope, while the exported SKU diagnostic retains its independent all-store scope. Revenue is observed; costs, contribution, and scenario savings are modeled.
+
+<!-- END INTERACTIVE WEBSITE DASHBOARDS -->
+
 The images below are snapshots of the Excel dashboards. Open an image to inspect it at full resolution, or download its workbook to explore the model.
 
 ### 1. Unit economics
